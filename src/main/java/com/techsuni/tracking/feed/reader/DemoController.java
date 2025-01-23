@@ -11,8 +11,6 @@ public class DemoController {
    private final JmsTemplate jmsTemplate;
 
     public DemoController(JmsTemplate jmsTemplate) {
-
-
         this.jmsTemplate = jmsTemplate;
     }
 
